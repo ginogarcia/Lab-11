@@ -1,4 +1,10 @@
 Lab11::Application.routes.draw do
+  get "users/new"
+
+  get "users/show"
+
+  get "users/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

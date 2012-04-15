@@ -1,0 +1,13 @@
+<h1>Users#show</h1>
+<p><%= @user.name %></p>
+
+
+
+<% @user.birds.each do |b| %>
+<%= b.type %>
+<%= b.created_at %>
+<% end %>
+
+
+
+
